@@ -1,3 +1,3 @@
 ﻿  n6.2bin.cpp
-c:\users\corji4\source\repos\n6.2bin\n6.2bin\n6.2bin.cpp(14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\corji4\source\repos\n6.2bin\n6.2bin\n6.2bin.cpp(15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   n6.2bin.vcxproj -> C:\Users\Corji4\source\repos\n6.2bin\Debug\n6.2bin.exe
