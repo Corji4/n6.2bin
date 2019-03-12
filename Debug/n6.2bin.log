@@ -1,3 +1,10 @@
-﻿  n6.2bin.cpp
-c:\users\corji4\source\repos\n6.2bin\n6.2bin\n6.2bin.cpp(15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  n6.2bin.vcxproj -> C:\Users\Corji4\source\repos\n6.2bin\Debug\n6.2bin.exe
+﻿  get_result.cpp
+  n6.2bin.cpp
+c:\users\corji4\source\repos\n6.2bin\n6.2bin\n6.2bin.cpp(12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  print_and_create.cpp
+  Создание кода...
+n6.2bin.obj : error LNK2005: "void __cdecl get_result(class std::basic_ifstream<char,struct std::char_traits<char> > &,class std::basic_ifstream<char,struct std::char_traits<char> > &,class std::basic_ofstream<char,struct std::char_traits<char> > &)" (?get_result@@YAXAAV?$basic_ifstream@DU?$char_traits@D@std@@@std@@0AAV?$basic_ofstream@DU?$char_traits@D@std@@@2@@Z) єцх юяЁхфхыхэ т get_result.obj
+print_and_create.obj : error LNK2005: "void __cdecl create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?create@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) єцх юяЁхфхыхэ т n6.2bin.obj
+print_and_create.obj : error LNK2005: "void __cdecl print_answer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?print_answer@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) єцх юяЁхфхыхэ т n6.2bin.obj
+print_and_create.obj : error LNK2005: "void __cdecl print_in(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?print_in@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) єцх юяЁхфхыхэ т n6.2bin.obj
+C:\Users\Corji4\source\repos\n6.2bin\Debug\n6.2bin.exe : fatal error LNK1169: юсэрЁєцхэ ьэюуюъЁрЄэю юяЁхфхыхээ√щ ёшьтюы - юфшэ шыш сюыхх
