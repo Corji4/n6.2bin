@@ -4,8 +4,11 @@
 
 using namespace std;
 
-void get_result(ifstream &First_File, ifstream &Second_File, ofstream &Result_File)
+void get_result(string First_name, string Second_name, string Result_name)
 {
+	ofstream Result_File(Result_name, ios::binary);
+	ifstream First_File(First_name, ios::binary);
+	ifstream Second_File(Second_name, ios::binary);
 	int First_Size, Second_Size;
 	First_File.read(reinterpret_cast <char*> (&First_Size), sizeof(int));
 	Second_File.read(reinterpret_cast <char*> (&Second_Size), sizeof(int));
@@ -53,4 +56,5 @@ void get_result(ifstream &First_File, ifstream &Second_File, ofstream &Result_Fi
 			Second_Size--;
 		}
 	}
+	Result_File.close();
 }
